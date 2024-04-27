@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nirmal/Documents/np_dsci_codes/swhML/mlruns/0/c459ef5942f54ea0ad7d2aaac6cb46ed/artifacts
+end_time: 1714218873083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c459ef5942f54ea0ad7d2aaac6cb46ed
+run_name: melodic-flea-332
+run_uuid: c459ef5942f54ea0ad7d2aaac6cb46ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714218828679
+status: 4
+tags: []
+user_id: nirmal
