@@ -1,4 +1,4 @@
-# swhML
+# whML
 
 SWH for micro-small industries
 
@@ -9,11 +9,8 @@ Student: Faizan Hafez
 Supervisors: Prof. Kamlesh Parmar,
              Dr. Nirmal Parmar, PhD
 
+![1714838378813](image/README/1714838378813.png)
 
-![1714838029142](image/README/1714838029142.png)
+![1714838386499](image/README/1714838386499.png)
 
-![1714837781380](image/README/1714837781380.png)
-
-![1714837825146](image/README/1714837825146.png)
-
-![1714837842063](image/README/1714837842063.png)
+![1714838395733](image/README/1714838395733.png)
