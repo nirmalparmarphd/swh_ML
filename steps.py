@@ -77,7 +77,7 @@ def model_training(model:RegressorMixin, x_train:pd.DataFrame, y_train:pd.Series
     return model
 
 @step
-def model_prediction(model:RegressorMixin, x_test:pd.DataFrame)->Annotated[pd.Series, 'T-out[C] Predictions']:
+def model_prediction(model:RegressorMixin, x_test:pd.DataFrame)->Annotated[pd.Series, 'Predictions']:
     predictions = model.predict(x_test)
     predictions = pd.Series(predictions)
     return predictions
@@ -95,6 +95,12 @@ def data_concat(x_:pd.DataFrame, prediction:pd.Series)->Annotated[pd.DataFrame, 
     df.fillna(0, inplace=True)
     return df
 
+@step
+def best_model(model1:RegressorMixin, model2:RegressorMixin, rmse1:float, rmse2:float)-> Annotated[RegressorMixin, 'Best model for T-out']:
+    if rmse1 > rmse2:
+        return model2
+    else:
+        return model1
 
 # def data_pipeline():
 #     df_raw = load_data()
