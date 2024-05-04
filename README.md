@@ -9,7 +9,8 @@ Student: Faizan Hafez
 Supervisors: Prof. Kamlesh Parmar,
              Dr. Nirmal Parmar, PhD
 
-    ![1714837773033](image/README/1714837773033.png)
+
+    ![1714838029142](image/README/1714838029142.png)
 
 ![1714837781380](image/README/1714837781380.png)
 
